@@ -10,8 +10,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.header {
+  padding: 5px;
+  text-align: center;
+}
+
 .container {
-  max-width: 500px;
+  max-width: 800px;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
@@ -19,6 +24,17 @@ body {
   padding: 30px;
   border-radius: 5px;
 }
+
+.form-container {
+  max-width: 700px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid rgb(8, 143, 68);
+  padding: 30px;
+  border-radius: 5px;
+}
+
 .btn {
   display: inline-block;
   background: #000;

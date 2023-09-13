@@ -1,0 +1,28 @@
+<!-- (ngSubmit)="onSubmit()" -->
+<form class="add-form" >
+    <div class="form-control">
+        <label for="text">User name</label>
+        <!-- [(ngModel)]="username" -->
+        <input type="text" name="text"  id="text" placeholder="Add User">
+    </div>
+
+    <div class="form-control">
+        <label for="email">Email</label>
+        <!-- [(ngModel)]="email" -->
+        <input type="text" name="email"  id="email" placeholder="Add Email">
+    </div>
+
+    <div class="form-control">
+        <label for="age">Age</label>
+        <!-- [(ngModel)]="age" -->
+        <input type="number" name="age"  id="age" placeholder="Add Age">
+    </div>
+
+    <div class="form-control">
+        <label for="company">Company</label>
+        <!-- [(ngModel)]="company" -->
+        <input type="text" name="company"  id="company" placeholder="Add company">
+    </div>
+
+    <input type="submit" value="Save" class="btn btn-block">
+</form>

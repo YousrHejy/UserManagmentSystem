@@ -2,6 +2,16 @@
     <app-add-button></app-add-button>
     <!-- <comp (userAdd)="userAdd($event)"></comp> -->
 </div>
+
 <div class="usertable">
     <app-user-table [users]="users"></app-user-table>
+</div>
+<!-- <div class="addform">
+    <app-add-user></app-add-user>
+</div> -->
+
+<div class="form-container">
+    <h2 class="header">Add New User</h2>
+    <!-- (onAddUser) = "addUser($event)" -->
+    <app-add-user ></app-add-user>
 </div>

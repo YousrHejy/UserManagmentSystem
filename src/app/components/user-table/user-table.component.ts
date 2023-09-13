@@ -13,14 +13,20 @@ export class UserTableComponent implements OnInit{
 
   @Input() users: User[] = [];
   @Output() onDeleteUser: EventEmitter<User> = new EventEmitter();
+  @Output() onEditUser: EventEmitter<User> = new EventEmitter();
  
  public ngOnInit() {
   // this.users = Users;
   // console.log("users", this.users)
-}
+  }
 
-public onDelete(this.user) {
-  this.onDeleteUser.emit(user);
-  console.log(user)
-}
+  // public onDelete(user) {
+  //   this.onDeleteUser.emit(user);
+  //   console.log(user)
+  // }
+
+  // public onEdit(user) {
+  //   this.onEditUser.emit(user);
+  //   console.log(user)
+  // }
 }

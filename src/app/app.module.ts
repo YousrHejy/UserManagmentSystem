@@ -9,6 +9,7 @@ import { UserListComponent } from './components/user-list/user-list.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AddButtonComponent } from './components/add-button/add-button.component';
 import { UserTableComponent } from './components/user-table/user-table.component';
+import { AddUserComponent } from './components/add-user/add-user.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UserTableComponent } from './components/user-table/user-table.component
     UserListComponent,
     HeaderComponent,
     AddButtonComponent,
-    UserTableComponent
+    UserTableComponent,
+    AddUserComponent
   ],
   imports: [
     BrowserModule,
